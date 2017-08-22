@@ -56,8 +56,12 @@ uint8_t BCD2BINARY(uint8_t x)
 
 int main(void){
 
+	_delay_ms(500);
+
 	TWI_init();
 	SPI_init();
+
+	_delay_ms(50);
 
 	SPI_send(0x00);
 
