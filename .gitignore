@@ -1,0 +1,11 @@
+*.d
+Release
+.settings
+.project
+.cproject
+*.hex
+*.map
+*.eep
+*.elf
+*.o
+*.mk
